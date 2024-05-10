@@ -1,0 +1,39 @@
+body {
+    background-color: #050A30; /* Azul noche */
+    color: #dc006e; /* Rosa oscuro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    background-color: #3C1950; /* Morado oscuro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.love-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Estilos para hacer la página desplazable */
+.container {
+    overflow-y: auto;
+    max-height: 80vh;
+}
